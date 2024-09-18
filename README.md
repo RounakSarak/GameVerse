@@ -9,3 +9,7 @@ Contains multiple games in diffrerent languages
 
 # Websites
 *None*
+
+
+# Databases
+*none*
