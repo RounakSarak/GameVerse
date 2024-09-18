@@ -1,15 +1,13 @@
 # GameVerse
-Contains multiple games in diffrerent languages
 
+**GameVerse** is a collection of games developed in multiple programming languages.
 
-# Contributors
-1. RounakSarak (Rounak)
-2. SnappingComet28 (Keshav)
+## Contributors
+- [Rounak](https://github.com/RounakSarak) (RounakSarak)
+- [Keshav](https://github.com/SnappingComet28) (SnappingComet28)
 
+## Websites
+None at the moment.
 
-# Websites
-*None*
-
-
-# Databases
-*none*
+## Databases
+None currently used.
