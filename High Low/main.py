@@ -23,13 +23,11 @@ def get_score() -> tuple:
     fail = ceil(fail*100/plays)
     return win,fail,plays
 
-print("Start the System?(y/n)")
-if input("$ ") == "n":
-    print("Show user data?(y/n)")
-    if input("$ ") == "y":
-        win,fail,plays = get_score()
-        print(f"Win% = {win}\nLose% = {fail}\nTotal Plays = {plays}")
-        exit(0)
+print("Start the System?(s to show score)")
+if input("$ ") == "s":
+    win,fail,plays = get_score()
+    print(f"Win% = {win}\nLose% = {fail}\nTotal Plays = {plays}")
+    exit(0)
 get_score()
 for _ in range(1,4):
     print("initialising"+"."*_,end="\r")
@@ -102,11 +100,8 @@ while True:
             continue
 
     print("play again?(y/n)")
-    try:
-        if input("$ ") == "y":
-            continue
-        else:
-            break
-    except:
-        print("Your punishment, i wont log your win and lost %")
+    if input("$ ") == "y":
+        continue
+    else:
+        print("Seeya")
         break
