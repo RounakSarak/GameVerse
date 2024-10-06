@@ -9,9 +9,11 @@ startTime = 0
 while True:
     if not randomNum:
         randomNum = int(random.random() * 100)
-
-    userNum = int(input("I guess the number is : "))
-
+    try:
+        userNum = int(input("I guess the number is : "))
+    except ValueError:
+        print("Just enter a number. Restarting...")
+        continue
     if not startTime:
         startTime = time.time()
 
@@ -22,6 +24,7 @@ while True:
         if user == "y" or user == "Y":
             randomNum = 0
             startTime = 0
+            print("Ok, Restarting...")
             continue
         else:
             break
