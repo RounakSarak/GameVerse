@@ -3,14 +3,15 @@ from time import sleep
 import json
 from os import path
 from math import ceil
+
+if not path.exists(r"High Low\status.json"):
+    data = {
+        "win": 0,
+        "fail": 0,
+        "plays": 0 
+    }
+    json.dump(data,open(r"High Low\status.json","x"))
 def get_score() -> tuple:
-    if not path.exists(r"High Low\status.json"):
-        data = {
-            "win": 0,
-            "fail": 0,
-            "plays": 0 
-        }
-        json.dump(data,open(r"High Low\status.json","x"))
     with open(r"High Low\status.json") as file:
         status = json.load(file)
     win = status["win"]
