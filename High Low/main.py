@@ -97,7 +97,7 @@ while True:
                 add_score(False)
                 break
         else:
-            print(f"MF enter valid entry")
+            print(f"MF enter valid entry. Imma Restart")
             continue
 
     print("play again?(y/n)")
