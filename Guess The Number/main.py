@@ -3,7 +3,7 @@ import time
 import requests
 
 # API endpoint URL (change this to your server's API endpoint)
-API_URL = "localhost/api.php"
+API_URL = "http://localhost/GameVerse/api/api.php"
 
 # Function to send the result to the server
 def send_result(player_name, win_status, time_taken):
