@@ -2,10 +2,8 @@ import random
 import time
 import requests
 
-# API endpoint URL (change this to your server's API endpoint)
 API_URL = "http://localhost/GameVerse/api/api.php"
 
-# Function to send the result to the server
 def send_result(player_name, win_status, time_taken):
     data = {
         'player_name': player_name,
@@ -21,14 +19,11 @@ def send_result(player_name, win_status, time_taken):
     except Exception as e:
         print(f"An error occurred: {e}")
 
-# Start of the game
 print("Hey, I have chosen a number between 1 and 100 and you have to find it.")
 player_name = input("Enter your name: ")
 print("Write any number to start. And I will start the timer from there.")
-
 randomNum = 0
 startTime = 0
-
 while True:
     if not randomNum:
         randomNum = int(random.random() * 100)
@@ -39,13 +34,11 @@ while True:
         continue
     if not startTime:
         startTime = time.time()
-
     if userNum == randomNum:
         time_taken = int(time.time() - startTime)
         print("Hey you caught it.")
         print("The time taken is just", time_taken, "sec")
         
-        # Send win result to the server
         send_result(player_name, win_status=1, time_taken=time_taken)
         
         user = input("Want to play again (Enter y to continue) : ")
