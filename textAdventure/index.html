@@ -1,11 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Text </title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Adventure</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+      }
+      h1 {
+        text-align: center;
+        margin-top: 50px;
+      }
+      p {
+        text-align: center;
+        margin-top: 20px;
+      }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </head>
+  <body>
+    <h1>Text Adventure</h1>
+    <p>
+      Welcome to the Text Adventure game! You are a brave adventurer who has
+      been tasked with exploring a mysterious cave. You will encounter many
+      dangers and treasures along the way. Good luck!
+    </p>
+    <div class="question"></div>
+    <div class="options"></div>
+    <script>
+        let data;
+            $(document).ready(function () {
+                
+      $.getJSON("data.json", function (result) {
+          data = result;
+          
+loadQuestion(0,data);
+      });
+              
+            });
+
+
+            function loadQuestion(index,data) {
+
+var question = data[index].question;
+var options = data[index].options;
+
+$(".question").text(question);
+var optionsHtml = "";
+i = 0;
+options.forEach(function (option) {
+  optionsHtml += '<p onclick="loadQuestion(' +i+',data)">' + option.text + "</p>";
+});
+$(".options").html(optionsHtml);
+
+};
+
+    </script>
+  </body>
 </html>

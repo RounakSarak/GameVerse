@@ -1,0 +1,465 @@
+[
+  {
+    "question": "You find yourself in a dark forest. Which direction do you want to go?",
+    "options": [
+      {
+        "text": "North",
+        "nextQuestion": 1
+      },
+      {
+        "text": "South",
+        "nextQuestion": 2
+      },
+      {
+        "text": "East",
+        "nextQuestion": 3
+      },
+      {
+        "text": "West",
+        "nextQuestion": 4
+      }
+    ]
+  },
+  {
+    "question": "You encounter a river. Do you want to swim across or walk along the bank?",
+    "options": [
+      {
+        "text": "Swim across",
+        "nextQuestion": 5
+      },
+      {
+        "text": "Walk along the bank",
+        "nextQuestion": 6
+      }
+    ]
+  },
+  {
+    "question": "You find a cave. Do you want to enter or keep walking?",
+    "options": [
+      {
+        "text": "Enter the cave",
+        "nextQuestion": 7
+      },
+      {
+        "text": "Keep walking",
+        "nextQuestion": 8
+      }
+    ]
+  },
+  {
+    "question": "You see a mountain in the distance. Do you want to climb it or go around?",
+    "options": [
+      {
+        "text": "Climb the mountain",
+        "nextQuestion": 9
+      },
+      {
+        "text": "Go around",
+        "nextQuestion": 10
+      }
+    ]
+  },
+  {
+    "question": "You find a village. Do you want to enter or keep walking?",
+    "options": [
+      {
+        "text": "Enter the village",
+        "nextQuestion": 11
+      },
+      {
+        "text": "Keep walking",
+        "nextQuestion": 12
+      }
+    ]
+  },
+  {
+    "question": "You successfully swim across the river and find a treasure chest. Do you want to open it?",
+    "options": [
+      {
+        "text": "Yes",
+        "nextQuestion": 13
+      },
+      {
+        "text": "No",
+        "nextQuestion": 14
+      }
+    ]
+  },
+  {
+    "question": "You walk along the bank and find a bridge. Do you want to cross it?",
+    "options": [
+      {
+        "text": "Yes",
+        "nextQuestion": 15
+      },
+      {
+        "text": "No",
+        "nextQuestion": 16
+      }
+    ]
+  },
+  {
+    "question": "You enter the cave and find a sleeping dragon. Do you want to sneak past it or leave?",
+    "options": [
+      {
+        "text": "Sneak past",
+        "nextQuestion": 17
+      },
+      {
+        "text": "Leave",
+        "nextQuestion": 18
+      }
+    ]
+  },
+  {
+    "question": "You keep walking and find a hidden path. Do you want to take it?",
+    "options": [
+      {
+        "text": "Yes",
+        "nextQuestion": 19
+      },
+      {
+        "text": "No",
+        "nextQuestion": 20
+      }
+    ]
+  },
+  {
+    "question": "You climb the mountain and find a wise old man. Do you want to talk to him?",
+    "options": [
+      {
+        "text": "Yes",
+        "nextQuestion": 21
+      },
+      {
+        "text": "No",
+        "nextQuestion": 22
+      }
+    ]
+  },
+  {
+    "question": "You go around the mountain and find a beautiful valley. Do you want to explore it?",
+    "options": [
+      {
+        "text": "Yes",
+        "nextQuestion": 23
+      },
+      {
+        "text": "No",
+        "nextQuestion": 24
+      }
+    ]
+  },
+  {
+    "question": "You enter the village and find a market. Do you want to buy something?",
+    "options": [
+      {
+        "text": "Yes",
+        "nextQuestion": 25
+      },
+      {
+        "text": "No",
+        "nextQuestion": 26
+      }
+    ]
+  },
+  {
+    "question": "You keep walking and find a mysterious traveler. Do you want to talk to him?",
+    "options": [
+      {
+        "text": "Yes",
+        "nextQuestion": 27
+      },
+      {
+        "text": "No",
+        "nextQuestion": 28
+      }
+    ]
+  },
+  {
+    "question": "You open the treasure chest and find gold coins. Do you want to take them?",
+    "options": [
+      {
+        "text": "Yes",
+        "nextQuestion": 29
+      },
+      {
+        "text": "No",
+        "nextQuestion": 30
+      }
+    ]
+  },
+  {
+    "question": "You decide not to open the treasure chest and continue your journey. Do you want to go north or south?",
+    "options": [
+      {
+        "text": "North",
+        "nextQuestion": 31
+      },
+      {
+        "text": "South",
+        "nextQuestion": 32
+      }
+    ]
+  },
+  {
+    "question": "You cross the bridge and find a castle. Do you want to enter?",
+    "options": [
+      {
+        "text": "Yes",
+        "nextQuestion": 33
+      },
+      {
+        "text": "No",
+        "nextQuestion": 34
+      }
+    ]
+  },
+  {
+    "question": "You decide not to cross the bridge and continue along the river. Do you want to go north or south?",
+    "options": [
+      {
+        "text": "North",
+        "nextQuestion": 35
+      },
+      {
+        "text": "South",
+        "nextQuestion": 36
+      }
+    ]
+  },
+  {
+    "question": "You successfully sneak past the dragon and find a hidden treasure. Do you want to take it?",
+    "options": [
+      {
+        "text": "Yes",
+        "nextQuestion": 37
+      },
+      {
+        "text": "No",
+        "nextQuestion": 38
+      }
+    ]
+  },
+  {
+    "question": "You leave the cave and continue your journey. Do you want to go north or south?",
+    "options": [
+      {
+        "text": "North",
+        "nextQuestion": 39
+      },
+      {
+        "text": "South",
+        "nextQuestion": 40
+      }
+    ]
+  },
+  {
+    "question": "You take the hidden path and find a secret garden. Do you want to explore it?",
+    "options": [
+      {
+        "text": "Yes",
+        "nextQuestion": 41
+      },
+      {
+        "text": "No",
+        "nextQuestion": 42
+      }
+    ]
+  },
+  {
+    "question": "You decide not to take the hidden path and continue your journey. Do you want to go north or south?",
+    "options": [
+      {
+        "text": "North",
+        "nextQuestion": 43
+      },
+      {
+        "text": "South",
+        "nextQuestion": 44
+      }
+    ]
+  },
+  {
+    "question": "You talk to the wise old man and he gives you a magical amulet. Do you want to wear it?",
+    "options": [
+      {
+        "text": "Yes",
+        "nextQuestion": 45
+      },
+      {
+        "text": "No",
+        "nextQuestion": 46
+      }
+    ]
+  },
+  {
+    "question": "You decide not to talk to the wise old man and continue your journey. Do you want to go north or south?",
+    "options": [
+      {
+        "text": "North",
+        "nextQuestion": 47
+      },
+      {
+        "text": "South",
+        "nextQuestion": 48
+      }
+    ]
+  },
+  {
+    "question": "You explore the beautiful valley and find a hidden waterfall. Do you want to swim in it?",
+    "options": [
+      {
+        "text": "Yes",
+        "nextQuestion": 49
+      },
+      {
+        "text": "No",
+        "nextQuestion": 50
+      }
+    ]
+  },
+  {
+    "question": "You decide not to explore the beautiful valley and continue your journey. Do you want to go north or south?",
+    "options": [
+      {
+        "text": "North",
+        "nextQuestion": 51
+      },
+      {
+        "text": "South",
+        "nextQuestion": 52
+      }
+    ]
+  },
+  {
+    "question": "You buy something from the market and find a map. Do you want to follow it?",
+    "options": [
+      {
+        "text": "Yes",
+        "nextQuestion": 53
+      },
+      {
+        "text": "No",
+        "nextQuestion": 54
+      }
+    ]
+  },
+  {
+    "question": "You decide not to buy anything from the market and continue your journey. Do you want to go north or south?",
+    "options": [
+      {
+        "text": "North",
+        "nextQuestion": 55
+      },
+      {
+        "text": "South",
+        "nextQuestion": 56
+      }
+    ]
+  },
+  {
+    "question": "You talk to the mysterious traveler and he gives you a quest. Do you want to accept it?",
+    "options": [
+      {
+        "text": "Yes",
+        "nextQuestion": 57
+      },
+      {
+        "text": "No",
+        "nextQuestion": 58
+      }
+    ]
+  },
+  {
+    "question": "You decide not to talk to the mysterious traveler and continue your journey. Do you want to go north or south?",
+    "options": [
+      {
+        "text": "North",
+        "nextQuestion": 59
+      },
+      {
+        "text": "South",
+        "nextQuestion": 60
+      }
+    ]
+  },
+  {
+    "question": "You take the gold coins and become rich. Do you want to retire?",
+    "options": [
+      {
+        "text": "Yes",
+        "nextQuestion": 61
+      },
+      {
+        "text": "No",
+        "nextQuestion": 62
+      }
+    ]
+  },
+  {
+    "question": "You decide not to take the gold coins and continue your journey. Do you want to go north or south?",
+    "options": [
+      {
+        "text": "North",
+        "nextQuestion": 63
+      },
+      {
+        "text": "South",
+        "nextQuestion": 64
+      }
+    ]
+  },
+  {
+    "question": "You enter the castle and find a throne room. Do you want to sit on the throne?",
+    "options": [
+      {
+        "text": "Yes",
+        "nextQuestion": 65
+      },
+      {
+        "text": "No",
+        "nextQuestion": 66
+      }
+    ]
+  },
+  {
+    "question": "You decide not to enter the castle and continue your journey. Do you want to go north or south?",
+    "options": [
+      {
+        "text": "North",
+        "nextQuestion": 67
+      },
+      {
+        "text": "South",
+        "nextQuestion": 68
+      }
+    ]
+  },
+  {
+    "question": "You decide to go north and find a hidden treasure. Do you want to take it?",
+    "options": [
+      {
+        "text": "Yes",
+        "nextQuestion": 69
+      },
+      {
+        "text": "No",
+        "nextQuestion": 70
+      }
+    ]
+  },
+  {
+    "question": "You decide to go south and find a hidden path. Do you want to take it?",
+    "options": [
+      {
+        "text": "Yes",
+        "nextQuestion": 71
+      },
+      {
+        "text": "No",
+        "nextQuestion": 72
+      }
+    ]
+  }
+]
