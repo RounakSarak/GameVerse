@@ -19,6 +19,21 @@
         text-align: center;
         margin-top: 20px;
       }
+        .question {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .options {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .options p {
+            background-color: #007bff;
+            color: white;
+            padding: 10px;
+            margin: 10px;
+            cursor: pointer;
+        }
     </style>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   </head>
@@ -32,33 +47,32 @@
     <div class="question"></div>
     <div class="options"></div>
     <script>
-        let data;
-            $(document).ready(function () {
-                
-      $.getJSON("data.json", function (result) {
+      let data;
+      $(document).ready(function () {
+        $.getJSON("data.json", function (result) {
           data = result;
-          
-loadQuestion(0,data);
+
+          loadQuestion(1, data);
+        });
       });
-              
-            });
 
+    function loadQuestion(id, data) {
+        console.log(id);
+      var questionData = data.find(q => q.id === id);
+      if (!questionData) return;
 
-            function loadQuestion(index,data) {
+      var question = questionData.question;
+      var options = questionData.options;
 
-var question = data[index].question;
-var options = data[index].options;
-
-$(".question").text(question);
-var optionsHtml = "";
-i = 0;
-options.forEach(function (option) {
-  optionsHtml += '<p onclick="loadQuestion(' +i+',data)">' + option.text + "</p>";
-});
-$(".options").html(optionsHtml);
-
-};
-
+      $(".question").text(question);
+      var optionsHtml = "";
+      
+      options.forEach(function (option) {
+        optionsHtml +=
+        '<p onclick="loadQuestion(' + option.nextQuestion + ',data)">' + option.text + "</p>";
+      });
+      $(".options").html(optionsHtml);
+    }
     </script>
   </body>
 </html>
