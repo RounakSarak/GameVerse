@@ -1,230 +1,244 @@
 [
-  {
-    "id": 1,
-    "question": "You find yourself at the edge of a mysterious forest. Thick fog blankets the area, and you feel a strange pull deeper into the woods. Which way do you go?",
-    "options": [
-      {
-        "text": "North",
-        "nextQuestion": 2
-      },
-      {
-        "text": "South",
-        "nextQuestion": 3
-      },
-      {
-        "text": "East",
-        "nextQuestion": 4
-      },
-      {
-        "text": "West",
-        "nextQuestion": 5
-      }
-    ]
-  },
-  {
-    "id": 2,
-    "question": "As you head north, the trees close in around you. You come across an eerie clearing with a glint of something metallic buried in the ground. Do you want to investigate?",
-    "options": [
-      {
-        "text": "Yes",
-        "nextQuestion": 6
-      },
-      {
-        "text": "No, keep moving",
-        "nextQuestion": 7
-      }
-    ]
-  },
-  {
-    "id": 3,
-    "question": "Heading south, you feel the air grow colder. The path narrows, and you notice a faint trail to the right. Do you follow the trail?",
-    "options": [
-      {
-        "text": "Yes",
-        "nextQuestion": 8
-      },
-      {
-        "text": "No, keep going straight",
-        "nextQuestion": 9
-      }
-    ]
-  },
-  {
-    "id": 4,
-    "question": "Going east, you stumble upon a small pond surrounded by strange carvings on the rocks. Do you wish to examine the carvings or continue walking?",
-    "options": [
-      {
-        "text": "Examine the carvings",
-        "nextQuestion": 10
-      },
-      {
-        "text": "Keep walking",
-        "nextQuestion": 11
-      }
-    ]
-  },
-  {
-    "id": 5,
-    "question": "Moving west, you find a rickety bridge crossing a fast-flowing river. Do you want to cross the bridge or stay on the current path?",
-    "options": [
-      {
-        "text": "Cross the bridge",
-        "nextQuestion": 12
-      },
-      {
-        "text": "Stay on the path",
-        "nextQuestion": 13
-      }
-    ]
-  },
-  {
-    "id": 6,
-    "question": "You dig out a small, ancient compass. It's pointing northeast, even though you're certain there’s nothing in that direction. Do you follow the compass?",
-    "options": [
-      {
-        "text": "Yes",
-        "nextQuestion": 14
-      },
-      {
-        "text": "No, keep moving",
-        "nextQuestion": 15
-      }
-    ]
-  },
-  {
-    "id": 7,
-    "question": "Continuing through the clearing, you come upon a mysterious door embedded in the forest floor. Do you want to open it?",
-    "options": [
-      {
-        "text": "Yes",
-        "nextQuestion": 14
-      },
-      {
-        "text": "No, keep going",
-        "nextQuestion": 15
-      }
-    ]
-  },
-  {
-    "id": 8,
-    "question": "Following the trail, you encounter an odd stone pedestal with strange symbols. A faint glow emanates from it. Do you inspect the pedestal?",
-    "options": [
-      {
-        "text": "Yes",
-        "nextQuestion": 14
-      },
-      {
-        "text": "No, keep moving",
-        "nextQuestion": 15
-      }
-    ]
-  },
-  {
-    "id": 9,
-    "question": "Going straight, you reach a dead end with a hollow tree. Inside, there’s an unusual silver key. Do you want to take it?",
-    "options": [
-      {
-        "text": "Yes",
-        "nextQuestion": 14
-      },
-      {
-        "text": "No, turn back",
-        "nextQuestion": 15
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "question": "The carvings seem to form a map. It points toward a hidden path nearby. Do you follow it?",
-    "options": [
-      {
-        "text": "Yes",
-        "nextQuestion": 14
-      },
-      {
-        "text": "No, keep walking",
-        "nextQuestion": 15
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "question": "Leaving the pond, you find another path that appears to lead deeper into the forest. Do you take it?",
-    "options": [
-      {
-        "text": "Yes",
-        "nextQuestion": 14
-      },
-      {
-        "text": "No, stay on your current path",
-        "nextQuestion": 15
-      }
-    ]
-  },
-  {
-    "id": 12,
-    "question": "As you cross the bridge, you notice a faint light flickering in the distance. Do you want to follow it?",
-    "options": [
-      {
-        "text": "Yes",
-        "nextQuestion": 14
-      },
-      {
-        "text": "No, keep walking along the river",
-        "nextQuestion": 15
-      }
-    ]
-  },
-  {
-    "id": 13,
-    "question": "Continuing along the path, you notice another bridge. This one looks sturdier and leads deeper into the forest. Do you cross it?",
-    "options": [
-      {
-        "text": "Yes",
-        "nextQuestion": 14
-      },
-      {
-        "text": "No, stay on your current path",
-        "nextQuestion": 15
-      }
-    ]
-  },
-  {
-    "id": 14,
-    "question": "You’ve arrived at a hidden glade, where an ancient stone altar awaits. Atop the altar, there’s a glowing gem. Do you want to take the gem?",
-    "options": [
-      {
-        "text": "Yes",
-        "nextQuestion": 16
-      },
-      {
-        "text": "No, leave it",
-        "nextQuestion": 17
-      }
-    ]
-  },
-  {
-    "id": 15,
-    "question": "You continue walking, only to feel the forest guiding you back to a hidden glade with an ancient stone altar and a glowing gem. Do you take the gem?",
-    "options": [
-      {
-        "text": "Yes",
-        "nextQuestion": 16
-      },
-      {
-        "text": "No, leave it",
-        "nextQuestion": 17
-      }
-    ]
-  },
-  {
-    "id": 16,
-    "question": "As you take the gem, the fog lifts, and you find yourself back at the edge of the forest. The gem pulses warmly, hinting at more adventures to come. You realize this was the forest's way of testing your bravery. The journey has ended... for now.",
-    "options": []
-  },
-  {
-    "id": 17,
-    "question": "Leaving the gem, you find yourself at the forest's edge, the fog lifting to reveal the world beyond. Though you leave empty-handed, the forest has imparted its wisdom. The journey has ended... for now.",
-    "options": []
-  }
+    {
+        "id": 1,
+        "question": "You awaken in a mysterious forest with fog swirling around. Which direction do you choose to start?",
+        "options": [
+            { "text": "North", "nextQuestion": 2 },
+            { "text": "South", "nextQuestion": 3 },
+            { "text": "East", "nextQuestion": 4 },
+            { "text": "West", "nextQuestion": 5 }
+        ]
+    },
+    {
+        "id": 2,
+        "question": "You come across a stream. Do you want to drink from it or follow it upstream?",
+        "options": [
+            { "text": "Drink", "nextQuestion": 6 },
+            { "text": "Follow upstream", "nextQuestion": 7 }
+        ]
+    },
+    {
+        "id": 3,
+        "question": "You see a narrow path leading through thick bushes. Do you want to take it?",
+        "options": [
+            { "text": "Yes", "nextQuestion": 8 },
+            { "text": "No", "nextQuestion": 9 }
+        ]
+    },
+    {
+        "id": 4,
+        "question": "A wise old owl sits on a branch above. Do you want to talk to it or ignore it?",
+        "options": [
+            { "text": "Talk", "nextQuestion": 10 },
+            { "text": "Ignore", "nextQuestion": 11 }
+        ]
+    },
+    {
+        "id": 5,
+        "question": "You come to an open field with strange glowing flowers. Do you want to pick one?",
+        "options": [
+            { "text": "Yes", "nextQuestion": 12 },
+            { "text": "No", "nextQuestion": 13 }
+        ]
+    },
+    {
+        "id": 6,
+        "question": "The water is refreshing, but you suddenly feel drowsy. Do you want to rest?",
+        "options": [
+            { "text": "Yes", "nextQuestion": 14 },
+            { "text": "No", "nextQuestion": 15 }
+        ]
+    },
+    {
+        "id": 7,
+        "question": "Following the stream, you find a small boat. Do you want to sail downriver?",
+        "options": [
+            { "text": "Yes", "nextQuestion": 16 },
+            { "text": "No", "nextQuestion": 17 }
+        ]
+    },
+    {
+        "id": 8,
+        "question": "The path leads to an ancient stone bridge covered in vines. Do you want to cross it?",
+        "options": [
+            { "text": "Yes", "nextQuestion": 18 },
+            { "text": "No", "nextQuestion": 19 }
+        ]
+    },
+    {
+        "id": 9,
+        "question": "You decide to avoid the bushes and continue onward. Do you want to head north or east?",
+        "options": [
+            { "text": "North", "nextQuestion": 20 },
+            { "text": "East", "nextQuestion": 21 }
+        ]
+    },
+    {
+        "id": 10,
+        "question": "The owl shares wisdom about hidden dangers in the forest. Do you wish to listen further?",
+        "options": [
+            { "text": "Yes", "nextQuestion": 22 },
+            { "text": "No", "nextQuestion": 23 }
+        ]
+    },
+    {
+        "id": 11,
+        "question": "You ignore the owl and continue onward. Do you want to follow a faint path westward?",
+        "options": [
+            { "text": "Yes", "nextQuestion": 24 },
+            { "text": "No", "nextQuestion": 25 }
+        ]
+    },
+    {
+        "id": 12,
+        "question": "As you pick a flower, it starts to glow even brighter. Do you want to keep it?",
+        "options": [
+            { "text": "Yes", "nextQuestion": 26 },
+            { "text": "No", "nextQuestion": 27 }
+        ]
+    },
+    {
+        "id": 13,
+        "question": "You decide not to pick the flower and keep walking. Do you want to head east or north?",
+        "options": [
+            { "text": "East", "nextQuestion": 28 },
+            { "text": "North", "nextQuestion": 29 }
+        ]
+    },
+    {
+        "id": 14,
+        "question": "As you rest, a mysterious figure appears in your dream. Do you talk to them?",
+        "options": [
+            { "text": "Yes", "nextQuestion": 30 },
+            { "text": "No", "nextQuestion": 31 }
+        ]
+    },
+    {
+        "id": 15,
+        "question": "You push through the drowsiness and feel re-energized. Do you want to head north or west?",
+        "options": [
+            { "text": "North", "nextQuestion": 32 },
+            { "text": "West", "nextQuestion": 33 }
+        ]
+    },
+    {
+        "id": 16,
+        "question": "You sail downriver and reach a fork in the water. Do you take the left or right path?",
+        "options": [
+            { "text": "Left", "nextQuestion": 34 },
+            { "text": "Right", "nextQuestion": 35 }
+        ]
+    },
+    {
+        "id": 17,
+        "question": "You decide not to use the boat and continue along the river. Do you want to walk north or south?",
+        "options": [
+            { "text": "North", "nextQuestion": 36 },
+            { "text": "South", "nextQuestion": 37 }
+        ]
+    },
+    {
+        "id": 18,
+        "question": "Crossing the bridge, you see a castle in the distance. Do you want to approach it?",
+        "options": [
+            { "text": "Yes", "nextQuestion": 38 },
+            { "text": "No", "nextQuestion": 39 }
+        ]
+    },
+    {
+        "id": 19,
+        "question": "You decide to avoid the bridge and go south instead. Do you want to investigate a cave nearby?",
+        "options": [
+            { "text": "Yes", "nextQuestion": 40 },
+            { "text": "No", "nextQuestion": 41 }
+        ]
+    },
+    {
+        "id": 20,
+        "question": "Heading north, you find an abandoned cabin. Do you want to go inside?",
+        "options": [
+            { "text": "Yes", "nextQuestion": 42 },
+            { "text": "No", "nextQuestion": 43 }
+        ]
+    },
+    {
+        "id": 21,
+        "question": "Moving east, you encounter a fork in the path. Do you want to go left or right?",
+        "options": [
+            { "text": "Left", "nextQuestion": 44 },
+            { "text": "Right", "nextQuestion": 45 }
+        ]
+    },
+    {
+        "id": 22,
+        "question": "The owl shares a riddle. Solving it may lead to hidden treasure. Do you want to try?",
+        "options": [
+            { "text": "Yes", "nextQuestion": 46 },
+            { "text": "No", "nextQuestion": 47 }
+        ]
+    },
+    {
+        "id": 23,
+        "question": "Ignoring the owl’s advice, you walk away. Do you go west or north?",
+        "options": [
+            { "text": "West", "nextQuestion": 48 },
+            { "text": "North", "nextQuestion": 49 }
+        ]
+    },
+    {
+        "id": 24,
+        "question": "Following the path, you find a hidden grove with fruit trees. Do you want to eat?",
+        "options": [
+            { "text": "Yes", "nextQuestion": 50 },
+            { "text": "No", "nextQuestion": 26 }
+        ]
+    },
+    {
+        "id": 25,
+        "question": "You wander off the path and come across a mountain ridge. Do you want to climb?",
+        "options": [
+            { "text": "Yes", "nextQuestion": 28 },
+            { "text": "No", "nextQuestion": 9 }
+        ]
+    },
+    {
+        "id": 26,
+        "question": "The flower guides you to a bright clearing. Do you wish to rest here?",
+        "options": [
+            { "text": "Yes", "nextQuestion": 31 },
+            { "text": "No", "nextQuestion": 7 }
+        ]
+    },
+    {
+        "id": 27,
+        "question": "You discard the flower and keep walking, finding a crossroads. Do you go north or west?",
+        "options": [
+            { "text": "North", "nextQuestion": 34 },
+            { "text": "West", "nextQuestion": 21 }
+        ]
+    },
+    {
+        "id": 28,
+        "question": "Taking the left path, you see a mysterious symbol carved on a tree. Do you touch it?",
+        "options": [
+            { "text": "Yes", "nextQuestion": 15 },
+            { "text": "No", "nextQuestion": 38 }
+        ]
+    },
+    {
+        "id": 29,
+        "question": "Going north, you find a deserted village. Do you explore the village?",
+        "options": [
+            { "text": "Yes", "nextQuestion": 40 },
+            { "text": "No", "nextQuestion": 37 }
+        ]
+    },
+    {
+        "id": 30,
+        "question": "The figure offers a map but warns it may lead to dangerous paths. Do you accept it?",
+        "options": [
+            { "text": "Yes", "nextQuestion": 36 },
+            { "text": "No", "nextQuestion": 18 }
+        ]
+    }
 ]
