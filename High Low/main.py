@@ -10,7 +10,8 @@ if not path.exists(r"High Low\status.json"):
         "fail": 0,
         "plays": 0 
     }
-    json.dump(data,open(r"High Low\status.json","x"))
+    json.dump(data, open(r"High Low\status.json", "x"))
+
 def get_score() -> tuple:
     with open(r"High Low\status.json") as file:
         status = json.load(file)
@@ -24,19 +25,21 @@ def get_score() -> tuple:
     fail = ceil(fail*100/plays)
     return win,fail,plays
 
-print("Start the System?(s to show score)")
+print("Start the game? (Enter 's' to show score)")
 if input("$ ") == "s":
-    win,fail,plays = get_score()
+    win, fail, plays = get_score()
     print(f"Win% = {win}\nLose% = {fail}\nTotal Plays = {plays}")
     exit(0)
+
 get_score()
-for _ in range(1,4):
-    print("initialising"+"."*_,end="\r")
+for _ in range(1, 4):
+    print("Initializing" + "." * _, end="\r")
     sleep(0.7)
-print("I selected 2 random numbers\nYou have to guess whether the first number is high or low than the previous")
+
+print("I have selected 2 random numbers.")
+print("You need to guess whether the first number is higher or lower than the second number.")
 
 def add_score(add: bool) -> None:
-    
     with open(r"High Low\status.json") as file:
         status = json.load(file)
     win = status["win"]
@@ -63,46 +66,46 @@ while True:
     via = randint(20,85)
     sleep(0.3)
 
-    print(f"so tell me\nIs {via} high or low than the target number?")
+    print(f"Is {via} higher or lower than the target number?")
     while True:
         try:
-            user = input("$ (h/l/bingo) :")
+            user = input("$ (h/l/bingo): ")
         except ValueError:
-            print("Just enter h/l/bingo")
+            print("Please enter 'h', 'l', or 'bingo'.")
 
         if user == "l":
             if via < target:
-                print(f"Noice it was {via} and {target}")
+                print(f"Correct! The numbers were {via} and {target}.")
                 add_score(True)
                 break
             else:
-                print(f"You lost! it was {via} and {target}")
+                print(f"Incorrect! The numbers were {via} and {target}.")
                 add_score(False)
                 break
         elif user == "h":
             if via > target:
-                print(f"Noice it was {via} and {target}")
+                print(f"Correct! The numbers were {via} and {target}.")
                 add_score(True)
                 break
             else:
-                print(f"You lost! it was {via} and {target}")
+                print(f"Incorrect! The numbers were {via} and {target}.")
                 add_score(False)
                 break
         elif user == "bingo":
             if via == target:
-                print(f"Noice it was {via} and {target}")
+                print(f"Correct! The numbers were {via} and {target}.")
                 add_score(True)
             else:
-                print(f"You lost! it was {via} and {target}")
+                print(f"Incorrect! The numbers were {via} and {target}.")
                 add_score(False)
                 break
         else:
-            print(f"MF enter valid entry. Imma Restart")
+            print("Invalid input. Please enter 'h', 'l', or 'bingo'.")
             continue
 
-    print("play again?(y/n)")
+    print("Do you want to play again? (y/n)")
     if input("$ ") == "y":
         continue
     else:
-        print("Seeya")
+        print("Goodbye!")
         break
